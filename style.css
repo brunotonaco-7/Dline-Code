@@ -296,6 +296,14 @@ a {
     gap: 20px;
 }
 
+.icone-vantagens {
+    width: clamp(48px, 16vw, 64px);
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
 .vantagens-conteudo h2 {
     font-weight: 800;
     font-size: 36px;
@@ -1057,6 +1065,10 @@ a {
         gap: 32px;
     }
     
+    .lista-vantagens {
+        height: auto;
+    }
+
     .img-vantagens {
         width: 100%;
         margin-top: 40px;
